@@ -6,6 +6,8 @@
     "start": "ng serve",
     "build:mfdemo1": "ng build --project=mfdemo1 --prod --output-hashing=none",
     "build:mf-element1": "ng build --project=mf-element1 --prod --output-hashing=none --single-bundle",
+    "build:mf-element1:deploy": "cp dist/mf-element1/main.js dist/mfdemo1/mf-demo1.js && cp dist/mf-element1/polyfills.js dist/mfdemo1/mf-polyfills.js",
+    "serve:mfdem1": "cd dist/mfdemo1 && lite-server dist/mfdemo1",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
