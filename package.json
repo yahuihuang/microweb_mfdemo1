@@ -7,7 +7,7 @@
     "build:mfdemo1": "ng build --project=mfdemo1 --prod --output-hashing=none",
     "build:mf-element1": "ng build --project=mf-element1 --prod --output-hashing=none --single-bundle",
     "build:mf-element1:deploy": "cp dist/mf-element1/main.js dist/mfdemo1/mf-demo1.js && cp dist/mf-element1/polyfills.js dist/mfdemo1/mf-polyfills.js",
-    "serve:mfdem1": "cd dist/mfdemo1 && lite-server dist/mfdemo1",
+    "serve:mfdemo1": "cd dist/mfdemo1 && lite-server",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -22,6 +22,7 @@
     "@angular/platform-browser": "~13.1.0",
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
+    "lite-server": "^2.6.1",
     "ngx-build-plus": "^13.0.1",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
