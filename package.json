@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:mfdem1": "ng build --project=mfdemo1 --prod --output-hashing=none",
+    "build:mfdemo1": "ng build --project=mfdemo1 --prod --output-hashing=none",
     "build:mf-element1": "ng build --project=mf-element1 --prod --output-hashing=none --single-bundle",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
